@@ -5,7 +5,7 @@ public class EvenNumbersPrinter {
         int counter=0;
         while(counter<=printTillInclusive){
             if(counter%2==0){
-                System.out.println(printTillInclusive);
+                System.out.println(counter);
             }
             counter++;
         }
