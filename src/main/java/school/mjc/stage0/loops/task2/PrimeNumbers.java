@@ -7,6 +7,7 @@ public class PrimeNumbers {
             if(!(printToInclusive%counter==0)){
                 System.out.println(counter);
             }
+            counter++;
         }
     }
 }
