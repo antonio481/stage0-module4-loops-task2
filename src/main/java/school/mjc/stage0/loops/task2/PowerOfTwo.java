@@ -1,12 +1,13 @@
 package school.mjc.stage0.loops.task2;
 
-import static java.lang.Math.*;
+
 
 public class PowerOfTwo {
     public void printPower(int power) {
         int counter=0;
+        int number=0;
         while(counter<=power){
-            System.out.println(pow(2,power));
+            System.out.println(number+2);
             counter++;
         }
         if(power<0){
